@@ -18,6 +18,8 @@ namespace lab4
         }
 
         Drink drink = null;
+        List<Data> list_capacity = null; 
+        List<Data> list_of_drinks = null;
 
         private void calculateButton_Click(object sender, EventArgs e)
         {
@@ -31,7 +33,7 @@ namespace lab4
                 double _size = double.Parse(sizeOfVeselBox.Text);
                 double _percent = double.Parse(percentOfAlchBox.Text);
                 double _number = double.Parse(amountOfVeselsBox.Text);
-                drink = new Drink(_size, _percent, _number);
+                drink = new Drink(_size, _percent, _number, list_capacity, list_of_drinks);
 
                 valueOfDrinksBox.Text = drink.DrinkSize().ToString();
                 valueOfPureAlchBox.Text = drink.DrinkAlcoholSize().ToString();
@@ -59,15 +61,17 @@ namespace lab4
             comboValueBox.DataSource = list_capacity;
             comboValueBox.DisplayMember = "Name";
             comboValueBox.ValueMember = "Value";
+            comboValueBox.Text = "Capacity";
 
             List<Data> list_of_drinks = new List<Data>();
-            list_of_drinks.Add(new Data() { Name = "Bear", Value = 10 });
-            list_of_drinks.Add(new Data() { Name = "Whiskey", Value = 50 });
-            list_of_drinks.Add(new Data() { Name = "Wine", Value = 18 });
+            list_of_drinks.Add(new Data() { Name = "Bear", Value = 10});
+            list_of_drinks.Add(new Data() { Name = "Whiskey", Value = 50});
+            list_of_drinks.Add(new Data() { Name = "Wine", Value = 18});
             list_of_drinks.Add(new Data() { Name = "Vodka", Value = 40});
             comboPercentBox.DataSource = list_of_drinks;
             comboPercentBox.DisplayMember = "Name";
             comboPercentBox.ValueMember = "Value";
+            comboPercentBox.Text = "Drink";
 
             sizeOfVeselBox.Text = "";
             percentOfAlchBox.Text = "";
@@ -87,6 +91,5 @@ namespace lab4
             Data obj = comboPercentBox.SelectedItem as Data;
             percentOfAlchBox.Text = obj.Value.ToString();
         }
-
     }
 }

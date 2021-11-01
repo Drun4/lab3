@@ -47,51 +47,51 @@ namespace lab4
             // 
             // sizeOfVeselBox
             // 
-            this.sizeOfVeselBox.Location = new System.Drawing.Point(21, 34);
-            this.sizeOfVeselBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sizeOfVeselBox.Location = new System.Drawing.Point(16, 28);
+            this.sizeOfVeselBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sizeOfVeselBox.Name = "sizeOfVeselBox";
-            this.sizeOfVeselBox.Size = new System.Drawing.Size(137, 22);
+            this.sizeOfVeselBox.Size = new System.Drawing.Size(104, 20);
             this.sizeOfVeselBox.TabIndex = 0;
             // 
             // percentOfAlchBox
             // 
-            this.percentOfAlchBox.Location = new System.Drawing.Point(21, 100);
-            this.percentOfAlchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.percentOfAlchBox.Location = new System.Drawing.Point(16, 92);
+            this.percentOfAlchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.percentOfAlchBox.Name = "percentOfAlchBox";
-            this.percentOfAlchBox.Size = new System.Drawing.Size(137, 22);
+            this.percentOfAlchBox.Size = new System.Drawing.Size(104, 20);
             this.percentOfAlchBox.TabIndex = 1;
             // 
             // amountOfVeselsBox
             // 
-            this.amountOfVeselsBox.Location = new System.Drawing.Point(21, 165);
-            this.amountOfVeselsBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.amountOfVeselsBox.Location = new System.Drawing.Point(16, 157);
+            this.amountOfVeselsBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.amountOfVeselsBox.Name = "amountOfVeselsBox";
-            this.amountOfVeselsBox.Size = new System.Drawing.Size(137, 22);
+            this.amountOfVeselsBox.Size = new System.Drawing.Size(104, 20);
             this.amountOfVeselsBox.TabIndex = 2;
             // 
             // valueOfPureAlchBox
             // 
-            this.valueOfPureAlchBox.Location = new System.Drawing.Point(424, 34);
-            this.valueOfPureAlchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.valueOfPureAlchBox.Location = new System.Drawing.Point(325, 29);
+            this.valueOfPureAlchBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.valueOfPureAlchBox.Name = "valueOfPureAlchBox";
-            this.valueOfPureAlchBox.Size = new System.Drawing.Size(137, 22);
+            this.valueOfPureAlchBox.Size = new System.Drawing.Size(104, 20);
             this.valueOfPureAlchBox.TabIndex = 3;
             // 
             // valueOfDrinksBox
             // 
-            this.valueOfDrinksBox.Location = new System.Drawing.Point(224, 34);
-            this.valueOfDrinksBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.valueOfDrinksBox.Location = new System.Drawing.Point(170, 29);
+            this.valueOfDrinksBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.valueOfDrinksBox.Name = "valueOfDrinksBox";
-            this.valueOfDrinksBox.Size = new System.Drawing.Size(137, 22);
+            this.valueOfDrinksBox.Size = new System.Drawing.Size(104, 20);
             this.valueOfDrinksBox.TabIndex = 4;
             // 
             // calculateButton
             // 
             this.calculateButton.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.calculateButton.Location = new System.Drawing.Point(224, 100);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calculateButton.Location = new System.Drawing.Point(170, 92);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(139, 25);
+            this.calculateButton.Size = new System.Drawing.Size(104, 20);
             this.calculateButton.TabIndex = 5;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = false;
@@ -100,10 +100,10 @@ namespace lab4
             // clearButton
             // 
             this.clearButton.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.clearButton.Location = new System.Drawing.Point(424, 100);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.clearButton.Location = new System.Drawing.Point(325, 92);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(139, 25);
+            this.clearButton.Size = new System.Drawing.Size(104, 20);
             this.clearButton.TabIndex = 6;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = false;
@@ -112,77 +112,74 @@ namespace lab4
             // V
             // 
             this.V.AutoSize = true;
-            this.V.Location = new System.Drawing.Point(21, 16);
-            this.V.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.V.Location = new System.Drawing.Point(16, 13);
             this.V.Name = "V";
-            this.V.Size = new System.Drawing.Size(45, 17);
+            this.V.Size = new System.Drawing.Size(33, 13);
             this.V.TabIndex = 7;
             this.V.Text = "V (ml)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 81);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(16, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 17);
+            this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "alc%";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 146);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(16, 142);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 17);
+            this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "number";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(224, 16);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(170, 14);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 17);
+            this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "drink V (ml)";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(424, 16);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(325, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 17);
+            this.label5.Size = new System.Drawing.Size(50, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "alc V (%)";
+            this.label5.Text = "alc V (ml)";
             // 
             // comboValueBox
             // 
             this.comboValueBox.FormattingEnabled = true;
-            this.comboValueBox.Location = new System.Drawing.Point(262, 244);
+            this.comboValueBox.Location = new System.Drawing.Point(173, 158);
+            this.comboValueBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboValueBox.Name = "comboValueBox";
-            this.comboValueBox.Size = new System.Drawing.Size(121, 24);
+            this.comboValueBox.Size = new System.Drawing.Size(101, 21);
             this.comboValueBox.TabIndex = 12;
             this.comboValueBox.SelectedValueChanged += new System.EventHandler(this.comboValueBox_SelectedValueChanged);
             // 
             // comboPercentBox
             // 
             this.comboPercentBox.FormattingEnabled = true;
-            this.comboPercentBox.Location = new System.Drawing.Point(452, 244);
+            this.comboPercentBox.Location = new System.Drawing.Point(328, 158);
+            this.comboPercentBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboPercentBox.Name = "comboPercentBox";
-            this.comboPercentBox.Size = new System.Drawing.Size(121, 24);
+            this.comboPercentBox.Size = new System.Drawing.Size(101, 21);
             this.comboPercentBox.TabIndex = 13;
             this.comboPercentBox.SelectedValueChanged += new System.EventHandler(this.comboPercentBox_SelectedValueChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(947, 350);
+            this.ClientSize = new System.Drawing.Size(573, 260);
             this.Controls.Add(this.comboPercentBox);
             this.Controls.Add(this.comboValueBox);
             this.Controls.Add(this.label5);
@@ -197,7 +194,6 @@ namespace lab4
             this.Controls.Add(this.amountOfVeselsBox);
             this.Controls.Add(this.percentOfAlchBox);
             this.Controls.Add(this.sizeOfVeselBox);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
