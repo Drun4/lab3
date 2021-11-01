@@ -49,9 +49,44 @@ namespace lab4
             valueOfPureAlchBox.Text = "";
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
+            List<Data> list_capacity = new List<Data>();
+            list_capacity.Add(new Data() { Name = "Bottle", Value = 500});
+            list_capacity.Add(new Data() { Name = "Glass", Value = 200});
+            list_capacity.Add(new Data() { Name = "Wineglass", Value = 170});
+            list_capacity.Add(new Data() { Name = "Short", Value = 50});
+            comboValueBox.DataSource = list_capacity;
+            comboValueBox.DisplayMember = "Name";
+            comboValueBox.ValueMember = "Value";
 
+            List<Data> list_of_drinks = new List<Data>();
+            list_of_drinks.Add(new Data() { Name = "Bear", Value = 10 });
+            list_of_drinks.Add(new Data() { Name = "Whiskey", Value = 50 });
+            list_of_drinks.Add(new Data() { Name = "Wine", Value = 18 });
+            list_of_drinks.Add(new Data() { Name = "Vodka", Value = 40});
+            comboPercentBox.DataSource = list_of_drinks;
+            comboPercentBox.DisplayMember = "Name";
+            comboPercentBox.ValueMember = "Value";
+
+            sizeOfVeselBox.Text = "";
+            percentOfAlchBox.Text = "";
+            amountOfVeselsBox.Text = "";
+            valueOfDrinksBox.Text = "";
+            valueOfPureAlchBox.Text = "";
         }
+
+        private void comboValueBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            Data obj = comboValueBox.SelectedItem as Data;
+            sizeOfVeselBox.Text = obj.Value.ToString();
+        }
+        
+        private void comboPercentBox_SelectedValueChanged(object sender, EventArgs e)
+        {
+            Data obj = comboPercentBox.SelectedItem as Data;
+            percentOfAlchBox.Text = obj.Value.ToString();
+        }
+
     }
 }
