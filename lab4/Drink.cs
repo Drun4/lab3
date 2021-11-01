@@ -26,7 +26,7 @@ namespace lab4
 
         public double DrinkAlcoholSize()
         {
-            return (size * number) / (percent / 100);
+            return (size * number) * (percent / 100);
         }
     }
 }
