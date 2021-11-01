@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab4
 {
-    class Drink
+    public class Drink
     {
         private double size;
         private double percent;
@@ -28,5 +28,7 @@ namespace lab4
         {
             return (size * number) * (percent / 100);
         }
+
+
     }
 }
